@@ -16,6 +16,7 @@ a[href], a[href]:hover {color: grey; font-size: 1.0em; text-decoration: none}
 body
 {
   background: #4a4a4c !important;
+  padding-bottom: 70px
 }
 
 .starrating > input {display: none;}  /* Remove radio buttons */
