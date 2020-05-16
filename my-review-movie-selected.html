@@ -12,8 +12,7 @@
   <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
   <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
   <link href="css/sb-admin-2.min.css" rel="stylesheet">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-  <title>Review - Lista de Séries</title>
+  <title>Review - Filme Selecionado</title>
 </head>
 <body id="page-top">
   <div id="wrapper">
@@ -153,7 +152,7 @@
               <div class="dropdown-menu dropdown-menu-right shadow animated--grow-in" aria-labelledby="userDropdown">
                 <a class="dropdown-item" href="user-profile.html">
                   <i class="fas fa-user fa-sm fa-fw mr-2 text-gray-400"></i>
-                  Perfil
+                  Filme
                 </a>
                 <div class="dropdown-divider"></div>
                 <a class="dropdown-item" href="#" data-toggle="modal" data-target="#logoutModal">
@@ -165,178 +164,44 @@
           </ul>
         </nav>
         <!-- End of Topbar -->
-        <div class="container-fluid">
-          <div class="d-sm-flex align-items-center justify-content-between mb-4">
-            <h1 class="h3 mb-0 text-gray-800">Séries</h1>  
-          </div>
-          <div class="row">
-<div class="container-fluid mt-4">
-<div class="row justify-content-center">
-  <div class="col-auto mb-3">
-    <div class="card" style="width: 18rem;">
-      <img class="card-img-top" src="https://source.unsplash.com/RoYujmHrdxA/60x60">
-      <div class="card-body">
-      <a class="card-title" href="serie-selected.html">Série 1</a>
-      </div>
-        <div class="card-footer">
-          <small class="text-muted">Nota</small>
-          <div class="container">
-            <div class="starrating risingstar d-flex justify-content-center flex-row-reverse">
-            <input type="radio" id="s1star5" name="s1rating" value="5" /><label for="s1star5" title="5"></label>
-            <input type="radio" id="s1star4" name="s1rating" value="4" /><label for="s1star4" title="4"></label>
-            <input type="radio" id="s1star3" name="s1rating" value="3" /><label for="s1star3" title="3"></label>
-            <input type="radio" id="s1star2" name="s1rating" value="2" /><label for="s1star2" title="2"></label>
-            <input type="radio" id="s1star1" name="s1rating" value="1" /><label for="s1star1" title="1"></label>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  <div class="col-auto mb-3">
-    <div class="card" style="width: 18rem;">
-      <img class="card-img-top" src="https://source.unsplash.com/RoYujmHrdxA/60x60">
-      <div class="card-body">
-      <a class="card-title" href="serie-selected.html">Série 2</a>
-      </div>
-        <div class="card-footer">
-          <small class="text-muted">Nota</small>
-          <div class="container">
-            <div class="starrating risingstar d-flex justify-content-center flex-row-reverse">
-            <input type="radio" id="s2star5" name="s2rating" value="5" /><label for="s2star5" title="5"></label>
-            <input type="radio" id="s2star4" name="s2rating" value="4" /><label for="s2star4" title="4"></label>
-            <input type="radio" id="s2star3" name="s2rating" value="3" /><label for="s2star3" title="3"></label>
-            <input type="radio" id="s2star2" name="s2rating" value="2" /><label for="s2star2" title="2"></label>
-            <input type="radio" id="s2star1" name="s2rating" value="1" /><label for="s2star1" title="1"></label>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  <div class="col-auto mb-3">
-    <div class="card" style="width: 18rem;">
-      <img class="card-img-top" src="https://source.unsplash.com/RoYujmHrdxA/60x60">
-      <div class="card-body">
-      <a class="card-title" href="serie-selected.html">Série 3</a>
-      </div>
-        <div class="card-footer">
-          <small class="text-muted">Nota</small>
-          <div class="container">
-            <div class="starrating risingstar d-flex justify-content-center flex-row-reverse">
-            <input type="radio" id="s3star5" name="s3rating" value="5" /><label for="s3star5" title="5"></label>
-            <input type="radio" id="s3star4" name="s3rating" value="4" /><label for="s3star4" title="4"></label>
-            <input type="radio" id="s3star3" name="s3rating" value="3" /><label for="s3star3" title="3"></label>
-            <input type="radio" id="s3star2" name="s3rating" value="2" /><label for="s3star2" title="2"></label>
-            <input type="radio" id="s3star1" name="s3rating" value="1" /><label for="s3star1" title="1"></label>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  <div class="col-auto mb-3">
-    <div class="card" style="width: 18rem;">
-      <img class="card-img-top" src="https://source.unsplash.com/RoYujmHrdxA/60x60">
-      <div class="card-body">
-      <a class="card-title" href="serie-selected.html">Série 4</a>
-      </div>
-        <div class="card-footer">
-          <small class="text-muted">Nota</small>
-          <div class="container">
-            <div class="starrating risingstar d-flex justify-content-center flex-row-reverse">
-            <input type="radio" id="s4star5" name="s4rating" value="5" /><label for="s4star5" title="5"></label>
-            <input type="radio" id="s4star4" name="s4rating" value="4" /><label for="s4star4" title="4"></label>
-            <input type="radio" id="s4star3" name="s4rating" value="3" /><label for="s4star3" title="3"></label>
-            <input type="radio" id="s4star2" name="s4rating" value="2" /><label for="s4star2" title="2"></label>
-            <input type="radio" id="s4star1" name="s4rating" value="1" /><label for="s4star1" title="1"></label>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  <div class="col-auto mb-3">
-    <div class="card" style="width: 18rem;">
-      <img class="card-img-top" src="https://source.unsplash.com/RoYujmHrdxA/60x60">
-      <div class="card-body">
-      <a class="card-title" href="serie-selected.html">Série 5</a>
-      </div>
-        <div class="card-footer">
-          <small class="text-muted">Nota</small>
-          <div class="container">
-            <div class="starrating risingstar d-flex justify-content-center flex-row-reverse">
-            <input type="radio" id="s5star5" name="s5rating" value="5" /><label for="s5star5" title="5"></label>
-            <input type="radio" id="s5star4" name="s5rating" value="4" /><label for="s5star4" title="4"></label>
-            <input type="radio" id="s5star3" name="s5rating" value="3" /><label for="s5star3" title="3"></label>
-            <input type="radio" id="s5star2" name="s5rating" value="2" /><label for="s5star2" title="2"></label>
-            <input type="radio" id="s5star1" name="s5rating" value="1" /><label for="s5star1" title="1"></label>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  <div class="col-auto mb-3">
-    <div class="card" style="width: 18rem;">
-      <img class="card-img-top" src="https://source.unsplash.com/RoYujmHrdxA/60x60">
-      <div class="card-body">
-      <a class="card-title" href="serie-selected.html">Série 6</a>
-      </div>
-        <div class="card-footer">
-          <small class="text-muted">Nota</small>
-          <div class="container">
-            <div class="starrating risingstar d-flex justify-content-center flex-row-reverse">
-            <input type="radio" id="s6star5" name="s6rating" value="5" /><label for="s6star5" title="5"></label>
-            <input type="radio" id="s6star4" name="s6rating" value="4" /><label for="s6star4" title="4"></label>
-            <input type="radio" id="s6star3" name="s6rating" value="3" /><label for="s6star3" title="3"></label>
-            <input type="radio" id="s6star2" name="s6rating" value="2" /><label for="s6star2" title="2"></label>
-            <input type="radio" id="s6star1" name="s6rating" value="1" /><label for="s6star1" title="1"></label>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  <div class="col-auto mb-3">
-    <div class="card" style="width: 18rem;">
-      <img class="card-img-top" src="https://source.unsplash.com/RoYujmHrdxA/60x60">
-      <div class="card-body">
-      <a class="card-title" href="serie-selected.html">Série 7</a>
-      </div>
-        <div class="card-footer">
-          <small class="text-muted">Nota</small>
-          <div class="container">
-            <div class="starrating risingstar d-flex justify-content-center flex-row-reverse">
-            <input type="radio" id="s7star5" name="s7rating" value="5" /><label for="s7star5" title="5"></label>
-            <input type="radio" id="s7star4" name="s7rating" value="4" /><label for="s7star4" title="4"></label>
-            <input type="radio" id="s7star3" name="s7rating" value="3" /><label for="s7star3" title="3"></label>
-            <input type="radio" id="s7star2" name="s7rating" value="2" /><label for="s7star2" title="2"></label>
-            <input type="radio" id="s7star1" name="s7rating" value="1" /><label for="s7star1" title="1"></label>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  <div class="col-auto mb-3">
-    <div class="card" style="width: 18rem;">
-      <img class="card-img-top" src="https://source.unsplash.com/RoYujmHrdxA/60x60">
-      <div class="card-body">
-      <a class="card-title" href="serie-selected.html">Série 8</a>
-      </div>
-        <div class="card-footer">
-          <small class="text-muted">Nota</small>
-          <div class="container">
-            <div class="starrating risingstar d-flex justify-content-center flex-row-reverse">
-            <input type="radio" id="s8star5" name="s8rating" value="5" /><label for="s8star5" title="5"></label>
-            <input type="radio" id="s8star4" name="s8rating" value="4" /><label for="s8star4" title="4"></label>
-            <input type="radio" id="s8star3" name="s8rating" value="3" /><label for="s8star3" title="3"></label>
-            <input type="radio" id="s8star2" name="s8rating" value="2" /><label for="s8star2" title="2"></label>
-            <input type="radio" id="s8star1" name="s8rating" value="1" /><label for="s8star1" title="1"></label>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>          
+<div class="container-fluid">
+  <div class="d-sm-flex align-items-center justify-content-between mb-4">
+  <h1 class="h3 mb-0 text-gray-800">Filme</h1>  
   </div>
-</div>        
+  <div class="mt-4 col-md-12"></div>
+<form>
+  <div class="form-group"> 
+    <label for="inputName">Nome</label>
+    <input type="text" class="form-control" name="name" id="inputName" placeholder="Nome do Filme">
+  </div>
+</form>
+<div class="mt-4 col-md-12"></div>
+<label for="inputName">Resenha</label>
+<div class="bg-white rounded shadow-sm p-4 mb-4 restaurant-detailed-ratings-and-reviews">
+  <div class="reviews-members pt-4 pb-4">
+    <div class="media">
+    <a href="#"><img alt="Generic placeholder image" src="img/user.png" class="mr-3 rounded-pill"></a>
+      <div class="media-body">
+        <div class="reviews-members-header">
+        <h6 class="mb-1"><a class="text-black" href="#">John Doe</a></h6>
+        </div>
+          <div class="review-members-body">
+          <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections </p>
+          </div>
+            <div class="starrating2 risingstar d-flex justify-content-center flex-row-reverse">
+            <input type="radio" id="c1star5" name="c1rating" value="5" /><label for="c1star5" title="5"></label>
+            <input type="radio" id="c1star4" name="c1rating" value="4" /><label for="c1star4" title="4"></label>
+            <input type="radio" id="c1star3" name="c1rating" value="3" /><label for="c1star3" title="3"></label>
+            <input type="radio" id="c1star2" name="c1rating" value="2" /><label for="c1star2" title="2"></label>
+            <input type="radio" id="c1star1" name="c1rating" value="1" /><label for="c1star1" title="1"></label>
+            </div>
+          </div>
+        </div>
+      </div>
+</div>
 </div>
 <!-- Footer -->
-      <div class="fixed-bottom">
+    <div class="fixed-bottom">
       <footer class="sticky-footer bg-white">
         <div class="container my-auto">
           <div class="copyright text-center my-auto">
@@ -345,9 +210,8 @@
         </div>
       </footer>
     </div>
-<!-- End of Footer -->
+    </div>
   </div>
-</div>
   <a class="scroll-to-top rounded" href="#page-top">
     <i class="fas fa-angle-up"></i>
   </a>
@@ -378,6 +242,5 @@
   <script src="js/demo/chart-area-demo.js"></script>
   <script src="js/demo/chart-pie-demo.js"></script>
   <script src="js/validator.min.js"></script>
-  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
 </body>
 </html>

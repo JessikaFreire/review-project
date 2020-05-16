@@ -1,29 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta name="description" content="">
   <meta name="author" content="">
-
-  <title>Review - Register</title>
-
-  <!-- Custom fonts for this template-->
   <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
   <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
-
-  <!-- Custom styles for this template-->
   <link href="css/sb-admin-2.min.css" rel="stylesheet">
-
+  <title>Review - Register</title>
 </head>
-
 <body class="bg-gradient-primary">
-
   <div class="container">
-
     <div class="card o-hidden border-0 shadow-lg my-5">
       <div class="card-body p-0">
         <!-- Nested Row within Card Body -->
@@ -37,32 +26,32 @@
               <form class="user">
                 <div class="form-group row">
                   <div class="col-sm-6 mb-3 mb-sm-0">
-                    <input type="text" class="form-control form-control-user" id="firstName" placeholder="Nome">
+                    <input type="text" class="form-control form-control-user" name="firstName" id="firstName" placeholder="Nome">
                   </div>
                   <div class="col-sm-6">
-                    <input type="text" class="form-control form-control-user" id="lastName" placeholder="Sobrenome">
+                    <input type="text" class="form-control form-control-user" name="lastName" id="lastName" placeholder="Sobrenome">
                   </div>
                 </div>
                 <div class="form-group">
-                  <input type="email" class="form-control form-control-user" id="inputEmail" placeholder="E-mail">
+                  <input type="email" class="form-control form-control-user" name="email" id="inputEmail" placeholder="E-mail">
                 </div>
                 <div class="form-group row">
                   <div class="col-sm-6 mb-3 mb-sm-0">
-                    <input type="password" class="form-control form-control-user" id="inputPassword" placeholder="Senha">
+                    <input type="password" class="form-control form-control-user" name="password" id="inputPassword" placeholder="Senha">
                   </div>
                   <div class="col-sm-6">
-                    <input type="password" class="form-control form-control-user" id="repeatPassword" placeholder="Repita a Senha">
+                    <input type="password" class="form-control form-control-user" name="repeatPassword" id="repeatPassword" placeholder="Repita a Senha">
                   </div>
+                </div>  
+                <div class="form-group text-center">
+                <img src="http://ssl.gstatic.com/accounts/ui/avatar_2x.png" height="200px" width="200px" class="avatar img-circle img-thumbnail" alt="avatar">
                 </div>
+                <div class="form-group text-center">
+                <input type="file" name="picture" class="text-center center-block file-upload">
+                </div></hr><br>
+              <hr>
                 <a href="login.html" class="btn btn-primary btn-user btn-block">
                   Registrar Conta
-                </a>
-                <hr>
-                <a href="index.html" class="btn btn-google btn-user btn-block">
-                  <i class="fab fa-google fa-fw"></i> Registrar com Google
-                </a>
-                <a href="index.html" class="btn btn-facebook btn-user btn-block">
-                  <i class="fab fa-facebook-f fa-fw"></i> Registrar com Facebook
                 </a>
               </form>
               <hr>
@@ -77,9 +66,7 @@
         </div>
       </div>
     </div>
-
   </div>
-
   <!-- JavaScript-->
   <script src="vendor/jquery/jquery.min.js"></script>
   <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
@@ -89,7 +76,6 @@
   <script src="js/demo/chart-area-demo.js"></script>
   <script src="js/demo/chart-pie-demo.js"></script>
   <script src="js/validator.min.js"></script>
-
+  <script src="js/picture.js"></script>
 </body>
-
 </html>
