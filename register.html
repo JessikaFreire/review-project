@@ -23,7 +23,7 @@
               <div class="text-center">
                 <h1 class="h4 text-gray-900 mb-4">Criar uma Conta!</h1>
               </div>
-              <form class="user">
+              <form class="user" id="form" method="POST" action="controller/usuario/UsuarioControllerCadastro.php">
                 <div class="form-group row">
                   <div class="col-sm-6 mb-3 mb-sm-0">
                     <input type="text" class="form-control form-control-user" name="firstName" id="firstName" placeholder="Nome">
@@ -39,9 +39,6 @@
                   <div class="col-sm-6 mb-3 mb-sm-0">
                     <input type="password" class="form-control form-control-user" name="password" id="inputPassword" placeholder="Senha">
                   </div>
-                  <div class="col-sm-6">
-                    <input type="password" class="form-control form-control-user" name="repeatPassword" id="repeatPassword" placeholder="Repita a Senha">
-                  </div>
                 </div>  
                 <div class="form-group text-center">
                 <img src="http://ssl.gstatic.com/accounts/ui/avatar_2x.png" height="200px" width="200px" class="avatar img-circle img-thumbnail" alt="avatar">
@@ -50,9 +47,7 @@
                 <input type="file" name="picture" class="text-center center-block file-upload">
                 </div></hr><br>
               <hr>
-                <a href="login.html" class="btn btn-primary btn-user btn-block">
-                  Registrar Conta
-                </a>
+              <input type="submit" class="btn btn-primary btn-lg float-right">Salvar</input>
               </form>
               <hr>
               <div class="text-center">

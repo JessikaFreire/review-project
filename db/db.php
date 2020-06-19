@@ -1,22 +1,22 @@
 <?php
+    class db
+    {
+        private $host = 'localhost';
+        private $username = 'root';
+        private $password = '';
+        private $database = 'reviewproject';
 
-class db {
-    //Database credentials
-    private $host="localhost";
-    private $user="root";
-    private $password="";
-    private $db="reviewproject";
+        public function mysqlConnect()
+        {
+            $con = mysqli_connect($this->host, $this->username, $this->password, $this->database);
+            mysqli_set_charset($con, 'utf8');
 
-    //Connection attemp
-    public $connection;
+            if(mysqli_connect_errno())
+            {
+                echo 'Erro ao tentar se conectar com o DB MySQL: '.mysqli_connect_error();
+            }
 
-    function __construct(){
-        $this->connection = new mysqli($this->host, $this->user, $this->password, $this->db);
-        //Connection check
-        if ($this->connection->connect_error) {
-            die("ERROR: Could not connect. " . $this->connection->connect_error);
+            return $con;
         }
     }
-}
-
 ?>

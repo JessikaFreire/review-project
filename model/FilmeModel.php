@@ -1,5 +1,5 @@
 <?php
-    require '../db/db.php';
+    require_once '../../db/db.php';
 
     class Filme {
         private $id;
@@ -24,7 +24,7 @@
 
         private $foto;
         public function setFoto($foto) { $this->foto = $foto; }
-        public function getFoto() { return $this->Foto; }
+        public function getFoto() { return $this->foto; }
 
         private $diretor;
         public function setDiretor($diretor) { $this->diretor = $diretor; }

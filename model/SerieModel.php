@@ -1,7 +1,7 @@
 <?php
-    require '../db/db.php';
+    require '../../db/db.php';
 
-    class Filme {
+    class Livro {
         private $id;
         public function setId($id) { $this->id = $id; }
         public function getId() { return $this->id; }
@@ -20,7 +20,7 @@
 
         private $foto;
         public function setFoto($foto) { $this->foto = $foto; }
-        public function getFoto() { return $this->Foto; }
+        public function getFoto() { return $this->foto; }
 
         private $ano;
         public function setAno($ano) { $this->ano = $ano; }

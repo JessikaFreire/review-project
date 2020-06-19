@@ -1,0 +1,4 @@
+- Validação de Login
+- Listagem por categoria
+- Listagem por autor
+- Votação em reviews
